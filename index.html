@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website with Background Image</title>
+<style>
+/* CSS for background image and menu styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background color to make the menu more readable */
+  overflow: hidden;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+}
+</style>
+</head>
+<body>
+
+<ul class="menu">
+  <li><a href="#iguessone">Home</a></li>
+  <li><a href="#dois">dois</a></li>
+  <li><a href="#trei">trei</a></li>
+  <li><a href="#quatri">quatri</a></li>
+  <li><a href="#cinco">cinco</a></li>
+</ul>
+
+</body>
+</html>
